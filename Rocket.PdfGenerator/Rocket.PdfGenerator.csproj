@@ -1,8 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6</TargetFramework>
+    <TargetFramework>net7</TargetFramework>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>RQuote.Rocket.PdfGenerator</PackageId>
+    <Title>PDF Generator</Title>
+    <Authors>Giridharan</Authors>
+    <Company>Rousing</Company>
+    <Product>RQuote.Rocket.PdfGenerator</Product>
+    <RepositoryUrl>https://github.com/RQuoteCloud/PDFGenerator.git</RepositoryUrl>
+    <PackageReleaseNotes>Updated to .net 7</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
